@@ -1,0 +1,58 @@
+p{
+    background-color: brown;
+}
+#reposicionar
+{
+    position: fixed;
+    background-color: aqua;
+    top:50%;
+    
+}
+div{
+    background-color: burlywood;
+}
+#divreferencia
+{
+    position: sticky;
+    top:10px;
+    height: 10vh;
+    width: 50%;
+    
+}
+h1{
+    visibility: hidden;
+}
+a{
+    background-color: chartreuse;
+    display: inline-block;
+    width: 200px;
+    height: 2em;
+}
+nav ul li
+{
+    list-style-type: none;
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+    border:solid 1px black;
+}
+nav ul li span
+{
+    display: none;
+}
+nav ul li:hover span
+{
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left:5em;
+    z-index: 2;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+nav ul li a
+{
+    display: block;
+    width: 100%;
+}

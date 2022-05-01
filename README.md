@@ -40,8 +40,8 @@
                       </nav>
                     </section>
           </main> 
-          <footer> 
-            Desenvolvido por Raniery Miguel Desenvolvedor Web@2022
-          </footer>     
+            <small><footer> 
+            @Desenvolvido por Raniery Miguel Desenvolvedor Web@2022
+              </footer></small>     
         </body>
 </html>
